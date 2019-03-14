@@ -34,7 +34,7 @@ migrate --reset #Once inside the truffle console
 While going through the tutorial I made quite a bit of progress till it came
 to actually executing the function to buy tokens. I kept getting the below error:
 
-* ![My Error](./pics/mainError.png)
+![My Error](./pics/mainError.png)
 
 After several attempts to alleviate the error I was not able to alleviate the problem.
 2. So what did I do to try to solve this issue?
