@@ -34,7 +34,7 @@ contract ExampleTokenCrowdsale is Crowdsale, MintedCrowdsale, CappedCrowdsale{
     uint256 _existingContribution = contributions[_beneficiary];
     uint256 _newContribution = _existingContribution.add(_weiAmount);
     require(_newContribution >= investorMinCap && _newContribution <= investorHardCap);
-	contributions[_beneficiary] = _newContribution;
+		contributions[_beneficiary] = _newContribution;
   }
 
 }
